@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets>
+
+    <widget>
+        <title>Список баннеров</title>
+        <description>Выводит список баннеров.</description>
+        <method>list_banners</method>
+    </widget>
+    
+    <widget>
+        <title>Ротатор баннеров</title>
+        <description>Выводит случайный баннер.</description>
+        <method>rotate_banners</method>
+    </widget>
+
+</widgets>
