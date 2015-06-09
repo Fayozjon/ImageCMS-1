@@ -1,0 +1,60 @@
+/* 
+    Document   : xform
+    Created on : 10.03.2013, 16:49:47
+    Author     : Констанин
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.xinput {
+	clear:both;
+	overflow:hidden;
+        width:80%;
+	margin:10px auto;
+        padding: 1px;
+}
+.xinput label {
+	display:block;
+	float:left;
+	width:30%;
+	text-align:right;
+	margin-right:10px;
+        margin-top: 5px;
+}
+.xinput label span {
+	text-align:left;
+	float:left;
+	vertical-align:middle;
+}
+.xinput input, .xinput textarea {
+	float:left;
+	width:60%;
+	padding:2px 4px;
+}
+.xinput textarea {
+	height:100px;
+}
+.xinput p {
+	margin-bottom:15px;
+}
+.xinput p.desc {
+	margin-bottom: 5px;
+	clear: both;
+	text-align: right;
+	margin-right: 10%;
+	color: #999;
+}
+.submit {
+	width:70px;
+	margin:10px auto;
+}
+.submit input {
+	padding:5px 10px;
+}
+.result {
+	font-size:12px;
+	color:red;
+}
+.result.good {
+	color:#090;
+}
