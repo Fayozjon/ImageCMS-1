@@ -1,0 +1,61 @@
+﻿div.error {
+	border:1px solid #DA251D;
+	padding:10px 20px;
+	overflow:hidden;
+	margin:10px;
+}
+.xinput {
+	margin:20px;
+	clear:both;
+	width:100%;
+	overflow:hidden;
+}
+.xinput label {
+	display:block;
+	float:left;
+	width:30%;
+	text-align:right;
+	margin-right:20px;
+}
+.xinput label span {
+	text-align:left;
+	float:left;
+	vertical-align:middle;
+}
+.xinput input, .xinput textarea, .xinput select {
+	float:left;
+	width:50%;
+	padding:2px 4px;
+}
+.xinput select {
+	width:52%;
+}
+.xinput textarea {
+	height:100px;
+}
+.xinput .help_text {
+	clear:both;
+	font-size:12px;
+	color:#999;
+	text-align:right;
+	margin-right:15%;
+}
+.xinput input.valid {
+	border:1px solid #DA251D;
+}
+.submit {
+	float:right;
+	margin-right:11%;
+}
+.submit input {
+	padding:5px 10px;
+}
+.xinput.forgot {
+	border:2px solid #DA251D;
+	width:90%;
+	padding:10px;
+}
+.xinput.forgot h3 {
+	font-weight:bolder;
+	margin-bottom:15px;
+}
