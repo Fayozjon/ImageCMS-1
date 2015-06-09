@@ -1,0 +1,41 @@
+.rating i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+}
+.rating i.icon-minus, .rating i.icon-plus {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding:2px;
+}
+.rating i.icon-minus {
+    background-image: url('../img/thumbs_down.gif');
+}
+.rating i.icon-plus {
+    background-image: url('../img/thumbs_up.gif');
+}
+.rating b {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    background-color: #f0f0f0;
+    padding: 1px 5px;
+    margin:0 3px;
+    font-weight: 100;
+    font-size: 11px;
+    min-width: 20px;
+    text-align: center;
+    color:#999;
+}
+.rating b.red {
+    background-color:#bb6969;
+    color:#fff;
+}
+.rating b.green {
+    background-color:#71c347;
+    color:#fff;
+}
